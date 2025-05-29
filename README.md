@@ -67,8 +67,8 @@ In this tutorial, we will observe various network traffic to and from Azure Virt
    Lets install wireshark
 </h3>
 <br />
-<p>
-  <img src"
+<p> First connect to your windows Vm
+  <img src="https://github.com/user-attachments/assets/46c0f982-6a48-41d1-850a-32f25c85a345" height="75%" width="100%" alt="Wireshark"/>
 </p>
 <br /> 
 <h3 align="center">
