@@ -80,48 +80,55 @@ In this tutorial, we will observe various network traffic to and from Azure Virt
   <img src="https://github.com/user-attachments/assets/0faf39ca-563e-4b83-b897-ce24d6d3ad37" height="75%" width="100%" alt="Wireshark"/>
 </p>
 <p>
-   Now
+ Now we continue the installation process by clicking next. Make sure in the packet capture "install ncap 1.79" box is clicked. When it comes to the usb capture make sure the "install UsbPcap 1.5.4.0" box is unboxed. Then finish by clicking install.
 </p>
 <p>
   <img src="https://github.com/user-attachments/assets/9e2da3d9-09d2-4831-8257-80d6ec2a92b6" height="75%" width="100%" alt="Wireshark"/>
   <img src="https://github.com/user-attachments/assets/84644d7e-e12f-4d6e-893d-1d02bf9c4de8" height="75%" width="100%" alt="Wireshark"/>
   <img src="https://github.com/user-attachments/assets/dcdeb682-b5f9-4a26-a628-3269259c245e" height="75%" width="100%" alt="Wireshark"/>
-  <img src="https://github.com/user-attachments/assets/0faf39ca-563e-4b83-b897-ce24d6d3ad37" height="75%" width="100%" alt="Wireshark"/>
+</p>
+<br />
 <h3 align="center">
   Now let's observe some ICMP traffic
 </h3>
 <br />
 <p>
-  Remote into your Windows 10 Virtual Machine, install Wireshark, open it and filter for ICMP traffic only.
+  Open wire shark 
 </p>
 <p>
+  <img src="https://github.com/user-attachments/assets/a62b4cdf-ce9f-4070-86fd-7adf98d5302d" height="75%" width="100%" alt="Microsoft Remote Desktop - Mac"/>
+  <img src="https://github.com/user-attachments/assets/8bfad268-32fa-48c9-883b-1461635a354e" height="75%" width="100%" alt="Microsoft Remote Desktop - Mac"/>
+  <img src="https://i.imgur.com/0BsfNiS.jpg" height="75%" width="100%" alt="Microsoft Remote Desktop - Mac"/>
   <img src="https://i.imgur.com/0BsfNiS.jpg" height="75%" width="100%" alt="Microsoft Remote Desktop - Mac"/>
 </p>
 <p>
   Retrieve the private IP address of the Ubuntu VM and attempt to ping it from within the Windows 10 VM. Observe ping requests and replies within WireShark:
 </p>
 <p>
-  <img src="https://i.imgur.com/yYGKuAy.png" height="75%" width="100%" alt="Ubuntu private IP"/>
-  <img src="https://i.imgur.com/3h9QSEY.png" height="75%" width="100%" alt="ICMP traffic - private IP"/>
+  <img src="https://github.com/user-attachments/assets/5ce063a1-f441-4547-829d-624b01c8ed5d" height="75%" width="100%" alt="Ubuntu private IP"/>
+  <img src="https://github.com/user-attachments/assets/31d7e3e4-55ed-44f6-9bdb-cd11743d8aba" height="75%" width="100%" alt="ICMP traffic - private IP"/>
 </p>
 <p>
   Attempt to ping a public website (such as www.google.com) and observe the traffic in WireShark:
 </p>
 <p>
-  <img src="https://i.imgur.com/YduMvc7.png" height="75%" width="100%" alt="ICMP traffic - public IP"/>
+  <img src="https://github.com/user-attachments/assets/d91df590-d699-49f7-a7aa-490b0174ec3f" height="75%" width="100%" alt="ICMP traffic - public IP"/>
 </p>
 <p>
   Initiate a perpetual/non-stop ping from your Windows 10 VM to your Ubuntu VM:
 </p>
 <p>
-  <img src="https://i.imgur.com/bihftKK.png" height="75%" width="100%" alt="ICMP traffic - perpetual ping"/>
+  <img src="https://github.com/user-attachments/assets/5ca936fb-5c46-4c58-b1ef-34631cf8585c" height="75%" width="100%" alt="ICMP traffic - perpetual ping"/>
+  <img src="https://github.com/user-attachments/assets/937048cf-44d4-4355-b7d9-a40f3937c583" height="75%" width="100%" alt="ICMP traffic - perpetual ping"/>
 </p>
 <p>
   Open the Network Security Group your Ubuntu VM is using and disable incoming (inbound) ICMP traffic, while back in the Windows 10 VM, observe the ICMP traffic in WireShark and the command line Ping activity:
 </p>
 <p>
-  <img src="https://i.imgur.com/ovGk5dq.png" height="75%" width="100%" alt="ICMP traffic - perpetual ping"/>
-  <img src="https://i.imgur.com/NjuUANI.png" height="75%" width="100%" alt="ICMP traffic - ICMP denied"/>
+  <img src="https://github.com/user-attachments/assets/72e40b6f-1e8b-45fb-b0d8-c70031585307" height="75%" width="100%" alt="ICMP traffic - perpetual ping"/>
+  <img src="https://github.com/user-attachments/assets/2bcf4d40-33c2-4cc7-b0e3-7c43e4da2069" height="75%" width="100%" alt="ICMP traffic - ICMP denied"/>
+  <img src="https://github.com/user-attachments/assets/40b009a9-2646-4e88-a168-05714edf1931" height="75%" width="100%" alt="ICMP traffic - ICMP denied"/>
+  <img src="https://github.com/user-attachments/assets/50888daf-c683-42bd-ba3b-781ba336d630" height="75%" width="100%" alt="ICMP traffic - ICMP denied"/>
 </p>
 <p>
   Re-enable ICMP traffic for the Network Security Group in your Ubuntu VM and back in the Windows 10 VM, observe the ICMP traffic in WireShark and the command line ping activity (should start working again).Finally, stop the ping activity:
