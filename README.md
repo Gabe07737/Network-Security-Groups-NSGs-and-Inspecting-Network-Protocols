@@ -67,10 +67,26 @@ In this tutorial, we will observe various network traffic to and from Azure Virt
    Lets install wireshark
 </h3>
 <br />
-<p> First connect to your windows Vm
-  <img src="https://github.com/user-attachments/assets/46c0f982-6a48-41d1-850a-32f25c85a345" height="75%" width="100%" alt="Wireshark"/>
+<p> 
+  First connect to your windows Vm
 </p>
-<br /> 
+<p>
+ <img src="https://github.com/user-attachments/assets/46c0f982-6a48-41d1-850a-32f25c85a345" height="75%" width="100%" alt="Wireshark"/>
+</p>
+<p>
+  Then open interent explorer, go to www.wireshark.com, click on the Windows x64 installer to download that version of the app and then click open file.
+</p>
+<p>
+  <img src="https://github.com/user-attachments/assets/0faf39ca-563e-4b83-b897-ce24d6d3ad37" height="75%" width="100%" alt="Wireshark"/>
+</p>
+<p>
+   Now
+</p>
+<p>
+  <img src="https://github.com/user-attachments/assets/9e2da3d9-09d2-4831-8257-80d6ec2a92b6" height="75%" width="100%" alt="Wireshark"/>
+  <img src="https://github.com/user-attachments/assets/84644d7e-e12f-4d6e-893d-1d02bf9c4de8" height="75%" width="100%" alt="Wireshark"/>
+  <img src="https://github.com/user-attachments/assets/dcdeb682-b5f9-4a26-a628-3269259c245e" height="75%" width="100%" alt="Wireshark"/>
+  <img src="https://github.com/user-attachments/assets/0faf39ca-563e-4b83-b897-ce24d6d3ad37" height="75%" width="100%" alt="Wireshark"/>
 <h3 align="center">
   Now let's observe some ICMP traffic
 </h3>
