@@ -37,7 +37,8 @@ In this tutorial, we will observe various network traffic to and from Azure Virt
   First, let's create our Resource Group inside our Azure subscription.
 </p>
 <p>
-  <img src="https://i.imgur.com/dOAeXqs.png" height="75%" width="100%" alt="Resource Group"/>
+  <img src="https://github.com/user-attachments/assets/3d17cd82-b31c-4b9d-9e08-05ee65ddcdc2" height="75%" width="100%" alt="Resource Group"/>
+  <img src="https://github.com/user-attachments/assets/fdedd732-4916-4337-9b46-75ccda0d3dbc" height="75%" width="100%" alt="Resource Group"/>
 </p>
 <p>
   Now create your Windows virtual machine. I typically create the VM in (US) East US.
@@ -46,7 +47,9 @@ In this tutorial, we will observe various network traffic to and from Azure Virt
   While creating the VM, select the previously created Resource Group and allow it to create a new Virtual Network (Vnet) and Subnet. Make sure to use the password option under the <strong>Administrator Account</strong> section:
 </p>
 <p>
-  <img src="https://i.imgur.com/PHOwjLh.png" height="75%" width="100%" alt="Windows VM"/>
+  <img src="https://github.com/user-attachments/assets/74656655-67c2-4b3e-ad69-f63dc5fc55a6" height="75%" width="100%" alt="Windows VM"/>
+  <img src="https://github.com/user-attachments/assets/e0bd7cc5-0432-4629-ae24-e4d57ff933c8" height="75%" width="100%" alt="Windows VM"/>
+  <img src="https://github.com/user-attachments/assets/bdf5f1c3-933a-4d8e-b580-6fea695a2942" height="75%" width="100%" alt="Windows VM"/>
 </p>
 <p>
   Create an Ubuntu virtual machine.
@@ -55,16 +58,19 @@ In this tutorial, we will observe various network traffic to and from Azure Virt
   While creating the VM, select the previously created Resource Group and allow it to create a new Virtual Network (Vnet) and Subnet. Make sure to use the password option under the <strong>Administrator Account</strong> section (not seen in image):
 </p>
 <p>
-  <img src="https://i.imgur.com/N5zwQUH.png" height="75%" width="100%" alt="Ubuntu VM"/>
-</p>
-<p>
-  Observe Your Virtual Network within Network Watcher:
-</p>
-<p>
-  <img src="https://i.imgur.com/Pn02GXF.png" height="75%" width="100%" alt="Network Watcher"/>
+  <img src="https://github.com/user-attachments/assets/6f28d948-1c2c-40ca-a3b8-1c4f7caf82a7" height="75%" width="100%" alt="Ubuntu VM"/>
+  <img src="https://github.com/user-attachments/assets/8835acbb-8dd7-4cb3-9bfe-54a447e455dc" height="75%" width="100%" alt="Ubuntu VM"/>
+  <img src="https://github.com/user-attachments/assets/fe94cbc8-3179-4a04-aff9-ab7b3fc75653" height="75%" width="100%" alt="Ubuntu VM"/>
 </p>
 <br />
+<h3 align="center">
+   Lets install wireshark
+</h3>
 <br />
+<p>
+  <img src"
+</p>
+<br /> 
 <h3 align="center">
   Now let's observe some ICMP traffic
 </h3>
