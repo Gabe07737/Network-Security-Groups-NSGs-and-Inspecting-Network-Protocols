@@ -129,12 +129,14 @@ In this tutorial, we will observe various network traffic to and from Azure Virt
   <img src="https://github.com/user-attachments/assets/2bcf4d40-33c2-4cc7-b0e3-7c43e4da2069" height="75%" width="100%" alt="ICMP traffic - ICMP denied"/>
   <img src="https://github.com/user-attachments/assets/40b009a9-2646-4e88-a168-05714edf1931" height="75%" width="100%" alt="ICMP traffic - ICMP denied"/>
   <img src="https://github.com/user-attachments/assets/50888daf-c683-42bd-ba3b-781ba336d630" height="75%" width="100%" alt="ICMP traffic - ICMP denied"/>
+  <img src="https://github.com/user-attachments/assets/8739fcde-a26d-4bd6-ad70-5e52b2f95239" height="75%" width="100%" alt="ICMP traffic - ICMP denied"/>
 </p>
 <p>
   Re-enable ICMP traffic for the Network Security Group in your Ubuntu VM and back in the Windows 10 VM, observe the ICMP traffic in WireShark and the command line ping activity (should start working again).Finally, stop the ping activity:
 </p>
 <p>
-  <img src="https://i.imgur.com/nZbl2sA.png" height="75%" width="100%" alt="ICMP traffic - ICMP re-enabled"/>
+  <img src="https://github.com/user-attachments/assets/2ff0f885-8daa-405a-ad56-87708b5ce80a" height="75%" width="100%" alt="ICMP traffic - ICMP re-enabled"/>
+  <img src="https://github.com/user-attachments/assets/03319056-e8b4-4728-8098-748768e294e2" height="75%" width="100%" alt="ICMP traffic - ICMP re-enabled"/>
 </p>
 <br />
 <br />
@@ -148,7 +150,12 @@ In this tutorial, we will observe various network traffic to and from Azure Virt
 </p>
   Exit the SSH connection by typing ‘exit’ and pressing [return]:
 </p>
-  <img src="https://i.imgur.com/6YEDJKu.png" height="75%" width="100%" alt="SSH traffic"/>
+  <img src="https://github.com/user-attachments/assets/8b9be5c0-9dfe-40ff-b162-cd45f4924962" height="75%" width="100%" alt="SSH traffic"/>
+  <img src="https://github.com/user-attachments/assets/129b1492-2076-4538-b426-b4dfec99827e" height="75%" width="100%" alt="SSH traffic"/>
+  <img src="https://github.com/user-attachments/assets/61a556f5-384c-4c21-9613-e37afa90e263" height="75%" width="100%" alt="SSH traffic"/>
+  <img src="https://github.com/user-attachments/assets/a3522ca0-a18e-4f87-a1c7-4c546eaf1be9" height="75%" width="100%" alt="SSH traffic"/>
+  <img src="https://github.com/user-attachments/assets/7b44a927-7711-4d2d-a8f0-3aa74747fb6b" height="75%" width="100%" alt="SSH traffic"/>
+  <img src="https://github.com/user-attachments/assets/232cefcb-ac86-40c7-8dee-16d170a0ad03" height="75%" width="100%" alt="SSH traffic"/>
 <p>
 <br />
 <br />
