@@ -98,7 +98,7 @@ In this tutorial, we will observe various network traffic to and from Azure Virt
 <p>
   <img src="https://github.com/user-attachments/assets/a62b4cdf-ce9f-4070-86fd-7adf98d5302d" height="75%" width="100%" alt="Microsoft Remote Desktop - Mac"/>
   <img src="https://github.com/user-attachments/assets/8bfad268-32fa-48c9-883b-1461635a354e" height="75%" width="100%" alt="Microsoft Remote Desktop - Mac"/>
-  <img src="https://i.imgur.com/0BsfNiS.jpg" height="75%" width="100%" alt="Microsoft Remote Desktop - Mac"/>
+  <img src="https://github.com/user-attachments/assets/a5fe8926-cb1f-44ea-9d1f-a9d87459f4b4" height="75%" width="100%" alt="Microsoft Remote Desktop - Mac"/>
 </p>
 <p>
   Retrieve the private IP address of the Ubuntu VM and attempt to ping it from within the Windows 10 VM. Observe ping requests and replies within WireShark:
