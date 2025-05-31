@@ -93,11 +93,21 @@ In this tutorial, we will observe various network traffic to and from Azure Virt
 </h3>
 <br />
 <p>
-  Open wire shark 
+  Open wire shark and click the blue shark fin in the corner. Make sure "Ethernet" is highlighted.
 </p>
 <p>
   <img src="https://github.com/user-attachments/assets/a62b4cdf-ce9f-4070-86fd-7adf98d5302d" height="75%" width="100%" alt="Microsoft Remote Desktop - Mac"/>
+</p>
+<p>
+  dffgfhg
+</p>
+<p>
   <img src="https://github.com/user-attachments/assets/8bfad268-32fa-48c9-883b-1461635a354e" height="75%" width="100%" alt="Microsoft Remote Desktop - Mac"/>
+</p>
+<p>
+  hdgljfldf
+</p>
+<p>
   <img src="https://github.com/user-attachments/assets/a5fe8926-cb1f-44ea-9d1f-a9d87459f4b4" height="75%" width="100%" alt="Microsoft Remote Desktop - Mac"/>
 </p>
 <p>
