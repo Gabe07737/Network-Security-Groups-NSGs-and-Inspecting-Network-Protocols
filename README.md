@@ -99,13 +99,13 @@ In this tutorial, we will observe various network traffic to and from Azure Virt
   <img src="https://github.com/user-attachments/assets/a62b4cdf-ce9f-4070-86fd-7adf98d5302d" height="75%" width="100%" alt="Microsoft Remote Desktop - Mac"/>
 </p>
 <p>
-  dffgfhg
+  Go into search bar and type icmp to filter only icmp traffic
 </p>
 <p>
   <img src="https://github.com/user-attachments/assets/8bfad268-32fa-48c9-883b-1461635a354e" height="75%" width="100%" alt="Microsoft Remote Desktop - Mac"/>
 </p>
 <p>
-  hdgljfldf
+  In command center, type in windows powershell and open the application.
 </p>
 <p>
   <img src="https://github.com/user-attachments/assets/a5fe8926-cb1f-44ea-9d1f-a9d87459f4b4" height="75%" width="100%" alt="Microsoft Remote Desktop - Mac"/>
@@ -160,10 +160,7 @@ In this tutorial, we will observe various network traffic to and from Azure Virt
   Exit the SSH connection by typing ‘exit’ and pressing [return]:
 </p>
   <img src="https://github.com/user-attachments/assets/8b9be5c0-9dfe-40ff-b162-cd45f4924962" height="75%" width="100%" alt="SSH traffic"/>
-  <img src="https://github.com/user-attachments/assets/129b1492-2076-4538-b426-b4dfec99827e" height="75%" width="100%" alt="SSH traffic"/>
   <img src="https://github.com/user-attachments/assets/61a556f5-384c-4c21-9613-e37afa90e263" height="75%" width="100%" alt="SSH traffic"/>
-  <img src="https://github.com/user-attachments/assets/a3522ca0-a18e-4f87-a1c7-4c546eaf1be9" height="75%" width="100%" alt="SSH traffic"/>
-  <img src="https://github.com/user-attachments/assets/7b44a927-7711-4d2d-a8f0-3aa74747fb6b" height="75%" width="100%" alt="SSH traffic"/>
   <img src="https://github.com/user-attachments/assets/232cefcb-ac86-40c7-8dee-16d170a0ad03" height="75%" width="100%" alt="SSH traffic"/>
 <p>
 <br />
