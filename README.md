@@ -41,7 +41,7 @@ In this tutorial, we will observe various network traffic to and from Azure Virt
   <img src="https://github.com/user-attachments/assets/fdedd732-4916-4337-9b46-75ccda0d3dbc" height="75%" width="100%" alt="Resource Group"/>
 </p>
 <p>
-  Now create your Windows virtual machine. I typically create the VM in (US) East US.
+  Now create your Windows virtual machine. 
 </p>
 <p>
   While creating the VM, select the previously created Resource Group and allow it to create a new Virtual Network (Vnet) and Subnet. Make sure to use the password option under the <strong>Administrator Account</strong> section:
